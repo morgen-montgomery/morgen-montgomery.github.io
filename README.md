@@ -1,2 +1,4 @@
 # morgenfett.tech
-My portfolio site.
+My portfolio website, check it out!
+
+Live at https://morgenfett.tech
