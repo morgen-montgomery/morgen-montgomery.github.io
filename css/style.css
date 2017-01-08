@@ -19,8 +19,7 @@ body {
 button {
   background: none;
   border: none;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .navs {
   padding-left: 10px;
