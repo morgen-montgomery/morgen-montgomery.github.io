@@ -13,6 +13,9 @@ body {
   line-height: 150%; }
 
 /***Nav-Styles***/
+.fa-icon {
+  color: white; }
+
 .navs {
   padding-left: 10px;
   padding-right: 10px;
