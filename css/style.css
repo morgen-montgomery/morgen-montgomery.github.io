@@ -155,6 +155,12 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
 form {
   margin-bottom: 30px; }
 
+/***Resume-Styles***/
+.resume_download {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 /***Portfolio-Styles***/
 .light-section img {
   width: 250px; }
