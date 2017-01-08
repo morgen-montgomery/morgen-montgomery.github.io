@@ -16,6 +16,12 @@ body {
 .fa-icon {
   color: white; }
 
+button {
+  background: none;
+  border: none;
+  justify-content: center;
+}
+
 .navs {
   padding-left: 10px;
   padding-right: 10px;
