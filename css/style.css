@@ -7,8 +7,9 @@ html body *:focus {
   outline: none; }
 
 body {
+  background-color: black;
   font: 100% "Open Sans";
-  color: #49a796;
+  color: #fff;
   font-size: 16px;
   line-height: 150%; }
 
@@ -59,7 +60,7 @@ body .navbar {
 /***Header-Styles***/
 .header {
   width: 100%;
-  background: url(../images/1img.jpg);
+  background: url(../images/bike_sunset.jpg);
   height: 1100px;
   overflow: hidden;
   background-size: cover;
@@ -75,9 +76,31 @@ body .navbar {
 
 /***Section-Styles***/
 .about-section {
+  width: 70%;
+  color: #fff;
   text-align: center;
-  color: #000;
-  margin-top: 460px; }
+  margin-top: 400px; }
+
+.contact-section {
+  width: 100%;
+  background: url(../images/fireworks.jpg);
+  height: 600px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 100% -300px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-footer {
+  padding-top: 20px;
+  text-align: center;
+  background-color: black;
+  height: 100px; }
+
+  /**/
 
 .dark-section {
   color: #fff;
@@ -113,10 +136,6 @@ body .navbar {
 .education {
   margin-top: 50px; }
 
-.dark-section-straight {
-  margin-top: -100px;
-  background-color: #2D2E40;
-  height: 200px; }
 
 /***Button-and-Form-Styles***/
 input[name=name], input[name=_replyto], textarea[name=message] {
@@ -140,8 +159,8 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   border-radius: 2px;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
-  color: #49a796;
-  border: 2px solid #49a796; }
+  color: #fff;
+  border: 2px solid #fff; }
 
 .button:hover {
   background-color: #49a796;
