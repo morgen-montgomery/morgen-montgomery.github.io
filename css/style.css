@@ -28,7 +28,7 @@ button {
   transition: 0.5s ease; }
 
 .solidNav {
-  background-color: #49a796; }
+  background-color: #000000; }
 
 body .navbar {
   margin-bottom: 0; }
@@ -84,25 +84,34 @@ body .navbar {
 .contact-section {
   width: 100%;
   background: url(../images/fireworks.jpg);
-  height: 600px;
+  height: 800px;
   overflow: hidden;
+  /*padding-top: 150px;
+  padding-bottom: 150px;*/
+  margin-bottom: inherit;
   background-size: cover;
-  background-position: 100% -300px;
+  background-position: 100%;
   background-repeat: no-repeat;
-  display: flex;
+  /*display: flex;*/
   align-items: center;
-  flex-direction: column;
+  /*flex-direction: column;*/
+  /*flex-wrap: wrap;*/
 }
 
+.contact-section .container {
+  padding-top: 200px;
+  padding-bottom: 100px; }
+
 .page-footer {
-  padding-top: 20px;
-  text-align: center;
-  background-color: black;
-  height: 100px; }
+  height: 110px; }
+
+ .gl-container {
+  padding-top: 25px;
+  text-align: center; }
 
   /**/
 
-.dark-section {
+/*.dark-section {
   color: #fff;
   padding-top: 10%;
   position: relative;
@@ -128,7 +137,7 @@ body .navbar {
   margin-top: 200px;
   background-color: #fff;
   color: #000;
-  padding: 150px 0 50px 0; }
+  padding: 150px 0 50px 0; }*/
 
 .resume {
   margin: 0 auto; }
@@ -171,8 +180,8 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   color: #fff;
   outline: none; }
 
-form {
-  margin-bottom: 30px; }
+/*form {
+  margin-bottom: 30px; }*/
 
 /***Resume-Styles***/
 .resume_download {
@@ -236,9 +245,6 @@ form {
   line-height: 50%;
   vertical-align: middle;
   color: #b1b1b1; }
-
-.footer {
-  margin-bottom: 60px; }
 
 /***Project-Styles***/
 .project {
