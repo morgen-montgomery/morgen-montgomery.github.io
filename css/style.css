@@ -228,7 +228,7 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   margin-top: 10px; }
 
 .quote-item {
-  height: 300px;
+  height: 275px;
 }
 
 .quote-one {
