@@ -7,7 +7,7 @@ html body *:focus {
   outline: none; }
 
 body {
-  background-color: black;
+  background-color: #121212;
   font: 100% "Open Sans";
   color: #fff;
   font-size: 16px;
@@ -51,7 +51,7 @@ body .navbar {
   letter-spacing: 1px; }
 
 .navbar ul a:hover, .navbar ul a:focus {
-  color: #49a796;
+  color: #ffae19;
   background-color: #fff; }
 
 .icon-bar {
@@ -120,46 +120,21 @@ body .navbar {
   padding-bottom: 100px; }
 
 .page-footer {
+  background-color: black;
   height: 110px; }
 
 .page-footer .container {
   padding-top: 25px;
   text-align: center; }
 
-  /**/
-
-/*.dark-section {
-  color: #fff;
-  padding-top: 10%;
-  position: relative;
-  margin-top: 5%;
-  margin-bottom: 5%; }
-
-.dark-section p {
-  width: 87%;
-  margin: 0 auto; }
-
-.dark-section::before {
-  content: '';
-  top: 0;
-  left: 0;
-  z-index: 0;
-  width: 100%;
-  height: 120%;
-  background-color: #2D2E40;
-  position: absolute;
-  transform: skewY(-5deg); }*/
-
 .portfolio-section {
   margin-top: 200px;
   background-color: #000;
   color: #fff;
-  padding: 150px 0 50px 0; }
+  padding: 100px 0 50px 0; }
 
 .resume {
   margin: 0 auto; }
-
-
 
 /***Button-and-Form-Styles***/
 input[name=name], input[name=_replyto], textarea[name=message] {
@@ -175,7 +150,7 @@ textarea[name=message] {
 
 input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus {
   box-shadow: none;
-  border: 1px solid #49a796; }
+  border: 1px solid #ffae19; }
 
 .button {
   background-color: transparent;
@@ -187,11 +162,11 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   border: 2px solid #fff; }
 
 .button:hover {
-  background-color: #49a796;
+  background-color: #ffae19;
   color: #fff; }
 
 .button:focus {
-  background-color: #49a796;
+  background-color: #ffae19;
   color: #fff;
   outline: none; }
 
@@ -225,7 +200,7 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   opacity: .85; }
 
 .piece-hover {
-  background: #49a796;
+  background: #ffae19;
   position: absolute;
   width: 250px;
   top: 0;
@@ -252,14 +227,12 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   font-style: italic;
   margin-top: 10px; }
 
+.quote-item {
+  height: 300px;
+}
+
 .quote-one {
   margin-top: 50px; }
-
-.quote-two {
-  margin-top: 5px; }
-
-.light-section blockquote {
-  border-left: 5px solid #49a796; }
 
 .quotation {
   font-family: Georgia;
@@ -330,9 +303,9 @@ h2 {
   width: 87%;
   margin: 10px auto; }
 
-.dark-section h2 {
+.resume-section h2 {
   text-align: center;
-  color: #49a796; }
+  color: #ffae19; }
 
 .light-section h2, .project h2 {
   text-align: center;
@@ -345,7 +318,7 @@ h3 .fa {
   margin-right: 6px; }
 
 h4 {
-  color: #49a796;
+  color: #ffae19;
   width: 87%;
   margin: 24px auto 3px auto; }
 
@@ -353,7 +326,7 @@ h4 {
   font-style: italic; }
 
 .outgoing {
-  color: #49A796; }
+  color: #ffb732; }
 
 /***list-styles***/
 .resume ul {
@@ -368,7 +341,7 @@ h4 {
   margin-right: 10px; }
 
 .skills li {
-  color: #49a796; }
+  color: #ffb732; }
 
 /***responsive-styles***/
 @media (max-width: 1199px) {
