@@ -184,6 +184,7 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   width: 250px; }
 
 .thumbnail {
+  height: 515px;
   background-color: #000;
 }
 /*.portfolio-section .container h3 {
@@ -193,14 +194,13 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
 .piece {
   width: 250px;
   display: inline-block;
-  margin: 0 5px;
   overflow: none; }
 
 .piece:hover .piece-hover {
   opacity: .85; }
 
 .piece-hover {
-  background: #ffae19;
+  background: #76D7C4;
   position: absolute;
   width: 250px;
   top: 0;
@@ -225,7 +225,15 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
 
 .piece-type {
   font-style: italic;
-  margin-top: 10px; }
+  margin-top: 60px; }
+
+/*.piece-btn {
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 30px;
+  right: 25%;
+  /*align-self: center;*/
+}*/
 
 .quote-item {
   height: 275px;
