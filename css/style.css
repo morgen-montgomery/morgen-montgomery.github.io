@@ -305,7 +305,7 @@ h2 {
 
 .resume-section h2 {
   text-align: center;
-  color: #ffae19; }
+  color: #76D7C4; }
 
 .light-section h2, .project h2 {
   text-align: center;
@@ -318,7 +318,7 @@ h3 .fa {
   margin-right: 6px; }
 
 h4 {
-  color: #ffae19;
+  color: #76D7C4;
   width: 87%;
   margin: 24px auto 3px auto; }
 
@@ -341,7 +341,11 @@ h4 {
   margin-right: 10px; }
 
 .skills li {
-  color: #ffb732; }
+  color: #76D7C4; }
+
+.education li {
+  color: #fff;
+}
 
 /***responsive-styles***/
 @media (max-width: 1199px) {
